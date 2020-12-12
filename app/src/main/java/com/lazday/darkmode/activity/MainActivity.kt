@@ -20,7 +20,8 @@ class MainActivity : AppCompatActivity() {
         if (pref.getBoolean("pref_is_dark")) {
             AppCompatDelegate.setDefaultNightMode( AppCompatDelegate.MODE_NIGHT_YES )
         } else {
-            AppCompatDelegate.getDefaultNightMode()
+//            AppCompatDelegate.setDefaultNightMode( AppCompatDelegate.MODE_NIGHT_NO )
+            AppCompatDelegate.getDefaultNightMode() // set default from device
         }
 
         setContentView(R.layout.activity_main)

@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
 
+        supportActionBar!!.title = "Lazday"
+
         textView.setOnClickListener {
             startActivity( Intent(this, SecondActivity::class.java) )
         }

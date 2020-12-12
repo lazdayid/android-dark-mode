@@ -1,4 +1,4 @@
-package com.lazday.darktheme.activity
+package com.lazday.darkmode.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,8 +6,8 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatDelegate
-import com.lazday.darktheme.R
-import com.lazday.darktheme.sharedpreferences.PrefManager
+import com.lazday.darkmode.R
+import com.lazday.darkmode.sharedpreferences.PrefManager
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

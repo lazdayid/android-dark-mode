@@ -1,4 +1,4 @@
-package com.lazday.darktheme.sharedpreferences
+package com.lazday.darkmode.sharedpreferences
 
 import android.content.Context
 import android.content.SharedPreferences

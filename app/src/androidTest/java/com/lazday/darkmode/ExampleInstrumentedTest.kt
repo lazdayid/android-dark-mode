@@ -1,4 +1,4 @@
-package com.lazday.darktheme
+package com.lazday.darkmode
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

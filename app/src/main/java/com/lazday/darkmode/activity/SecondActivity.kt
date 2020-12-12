@@ -1,8 +1,8 @@
-package com.lazday.darktheme.activity
+package com.lazday.darkmode.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.lazday.darktheme.R
+import com.lazday.darkmode.R
 import kotlinx.android.synthetic.main.activity_second.*
 
 class SecondActivity : AppCompatActivity() {

@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "com.lazday.darktheme"
+        applicationId "com.lazday.darkmode"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1

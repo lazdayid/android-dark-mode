@@ -1,4 +1,4 @@
-package com.lazday.darktheme
+package com.lazday.darkmode
 
 import org.junit.Test
 

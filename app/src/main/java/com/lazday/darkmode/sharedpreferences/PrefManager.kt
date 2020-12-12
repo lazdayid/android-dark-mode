@@ -7,11 +7,11 @@ private const val prefName = "LazdayDarkTheme.pref"
 
 class PrefManager (context: Context) {
 
-    private var sharedPref: SharedPreferences
-    val editor: SharedPreferences.Editor
+    private var sharedPref: SharedPreferences =
+        context.getSharedPreferences(prefName, Context.MODE_PRIVATE)
+    private val editor: SharedPreferences.Editor
 
     init {
-        sharedPref = context.getSharedPreferences(prefName, Context.MODE_PRIVATE)
         editor = sharedPref.edit()
     }
 
